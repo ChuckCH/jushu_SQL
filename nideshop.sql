@@ -4657,7 +4657,7 @@ INSERT INTO `nideshop_goods_gallery` VALUES (678, 1181000, 'http://yanxuan.nosdn
 INSERT INTO `nideshop_goods_gallery` VALUES (679, 1181000, 'http://yanxuan.nosdn.127.net/12e41d7e5dabaf9150a8bb45c41cf422.jpg', '', 5);
 INSERT INTO `nideshop_goods_gallery` VALUES (680, 1181000, 'http://yanxuan.nosdn.127.net/5c1d28e86ccb89980e6054a49571cdec.jpg', '', 5);
 INSERT INTO `nideshop_goods_gallery` VALUES (681, 2000001, '../../static/images/book1.jpg', '', 5);
-INSERT INTO `nideshop_goods_gallery` VALUES (682, 2000002, '../../static/images/book1.jpg', '', 5);
+INSERT INTO `nideshop_goods_gallery` VALUES (682, 2000002, '../../static/images/book2.jpg', '', 5);
 COMMIT;
 
 -- ----------------------------
@@ -4676,10 +4676,10 @@ CREATE TABLE `nideshop_goods_issue` (
 -- Records of nideshop_goods_issue
 -- ----------------------------
 BEGIN;
-INSERT INTO `nideshop_goods_issue` VALUES (1, '1127052', '购买运费如何收取？', '单笔订单金额（不含运费）满88元免邮费；不满88元，每单收取10元运费。\n(港澳台地区需满');
-INSERT INTO `nideshop_goods_issue` VALUES (2, '1127052', '使用什么快递发货？', '严选默认使用顺丰快递发货（个别商品使用其他快递），配送范围覆盖全国大部分地区（港澳台地区除');
-INSERT INTO `nideshop_goods_issue` VALUES (3, '1127052', '如何申请退货？', '1.自收到商品之日起30日内，顾客可申请无忧退货，退款将原路返还，不同的银行处理时间不同，');
-INSERT INTO `nideshop_goods_issue` VALUES (4, '1127052', '如何开具发票？', '1.如需开具普通发票，请在下单时选择“我要开发票”并填写相关信息（APP仅限2.4.0及以');
+INSERT INTO `nideshop_goods_issue` VALUES (1, '1127052', '购买后二手书如何收取？', '找到校园中的橘书自提柜，输入APP中对应书本的取书码即可。');
+INSERT INTO `nideshop_goods_issue` VALUES (2, '1127052', '橘书自提柜在哪？', '自提柜一般会设置在图书馆或者学生宿舍一楼公共空间。');
+INSERT INTO `nideshop_goods_issue` VALUES (3, '1127052', '如何申请退货？', '在个人界面，点击联系客服，客服会为您办理退货。');
+INSERT INTO `nideshop_goods_issue` VALUES (4, '1127052', '如何开具发票？', '现在橘书二手书交易平台还没有这个功能，十分抱歉');
 COMMIT;
 
 -- ----------------------------
