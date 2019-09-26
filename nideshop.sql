@@ -4726,13 +4726,11 @@ CREATE TABLE `nideshop_keywords` (
 -- Records of nideshop_keywords
 -- ----------------------------
 BEGIN;
-INSERT INTO `nideshop_keywords` VALUES ('520元礼包抢先领', 1, 1, 1, 1, '', 1, 0);
-INSERT INTO `nideshop_keywords` VALUES ('单鞋', 0, 0, 1, 8, '', 7, 0);
-INSERT INTO `nideshop_keywords` VALUES ('墨镜', 0, 0, 1, 5, '', 5, 0);
-INSERT INTO `nideshop_keywords` VALUES ('夏凉被', 0, 0, 1, 100, '', 6, 0);
-INSERT INTO `nideshop_keywords` VALUES ('新品上市', 0, 0, 1, 100, '', 4, 0);
-INSERT INTO `nideshop_keywords` VALUES ('日式', 0, 0, 1, 100, '', 3, 0);
-INSERT INTO `nideshop_keywords` VALUES ('母亲节', 0, 0, 1, 100, '', 2, 0);
+INSERT INTO `nideshop_keywords` VALUES ('概率论与数理统计', 1, 1, 1, 1, '', 1, 0);
+INSERT INTO `nideshop_keywords` VALUES ('计算机网络', 0, 0, 1, 8, '', 7, 0);
+INSERT INTO `nideshop_keywords` VALUES ('软件项目管理', 0, 0, 1, 5, '', 5, 0);
+INSERT INTO `nideshop_keywords` VALUES ('马克思', 0, 0, 1, 100, '', 6, 0);
+INSERT INTO `nideshop_keywords` VALUES ('高等数学', 0, 0, 1, 100, '', 4, 0);
 COMMIT;
 
 -- ----------------------------
